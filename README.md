@@ -18,10 +18,10 @@ https://www.youtube.com/watch?v=xq04F4hbZmo&ab_channel=C%C3%B3digosdeProgramaci%
 Los archivos que se usaron de este aporte son los siguientes:
 
 -includes
-    getLocalidad.php
-    getMunicipio.php
+getLocalidad.php
+getMunicipio.php
 -js
-    jquery-3.1.1.min.js
+jquery-3.1.1.min.js
 
 conexion.php
 guarda.php
