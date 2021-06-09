@@ -41,9 +41,10 @@ Fecha de Obtencion de datos 01/06/2021.
 ```
 BD_Estados_Municipios_Asentamientos.sql
 
-    Estados: 32 Entidades Federativas
-    Municipios: 2,469
-    Asentamienos: 146,076
+    tblc_estados: 32 Entidades Federativas
+    tblc_municipios: 2,469 Cantidad de municipios
+    tblc_asentamienos: 146,076 Cantidad de municipios (Nombre del asentamiento, C.P. etc.)
+    tblc_tipo_asentamientos: 32 tipos de asentamientos (Colonias, unidad habitacional, fraccionamiento etc.)
    
 ```
 ## Estructura de la base de datos 🛠️
