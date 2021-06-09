@@ -39,13 +39,16 @@ Fuente:     http://www.cuentame.inegi.org.mx/territorio/division/default.aspx?te
 Fecha de Obtencion de datos 01/06/2021.
 
 ```
-BD_Estados_Municipios_Asentamientos.php
+BD_Estados_Municipios_Asentamientos.sql
 
     Estados: 32 Entidades Federativas
     Municipios: 2,469
     Asentamienos: 146,076
    
 ```
+## Estructura de la base de datos 🛠️
+
+![DiagramaEntidadRelacion](https://user-images.githubusercontent.com/6250793/121298464-86bd7400-c8b9-11eb-8f10-05101a22f3db.png)
 
 ## Construido con 🛠️
 
@@ -54,11 +57,11 @@ _El proyecto se construyó usando las siguientes herramientas_
 
 * [XAMPP](https://www.apachefriends.org/es/index.html) - XAMPP es una distribución de Apache completamente gratuita y fácil de instalar que contiene MariaDB, PHP y Perl.
 
-
+Una vez instalado hay que ejecutar dentro de phpmyadmin el archivo BD_Estados_Municipios_Asentamientos.sql
 
 ## Autor ✒️
 
-* **Enrique Estrada** - *Trabajo Inicial* - [villanuevand](https://github.com/estrada59)
+* **Enrique Estrada** - *Trabajo Inicial* - [estrada59](https://github.com/estrada59)
 
 
 
