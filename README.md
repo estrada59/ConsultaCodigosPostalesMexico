@@ -48,9 +48,9 @@ BD_Estados_Municipios_Asentamientos.sql
    
 ```
 ## Estructura de la base de datos 🛠️
-
+```
 ![DiagramaEntidadRelacion](https://user-images.githubusercontent.com/6250793/121298464-86bd7400-c8b9-11eb-8f10-05101a22f3db.png)
-
+```
 ## Construido con 🛠️
 
 _El proyecto se construyó usando las siguientes herramientas_
