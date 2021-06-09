@@ -1,13 +1,12 @@
-# ConsultaCodigosPostalesMexico
+# Consulta de Codigos Postales México 2021
 
+_Se muestra el Catálogo Nacional de Códigos Postales elaborado por Correos de México. En combos dinámicos en PHP, AJAX y MySQL. Fecha de Obtencion de datos 01/06/2021._
 
-Fecha de Obtencion de datos 01/06/2021.
+https://estrada59.github.io/ConsultaCodigosPostalesMexico/
 
+## Comenzando 🚀
 
-----------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------
-
-Este aporte es del siguiente canal de YouTube
+_Parte de este aporte es del siguiente canal de YouTube
 
 Códigos de Programación - MR Canal: https://www.youtube.com/channel/UCKaa9SPITNARrLDvX2olvrA
 
@@ -17,20 +16,18 @@ https://www.youtube.com/watch?v=xq04F4hbZmo&ab_channel=C%C3%B3digosdeProgramaci%
 
 Los archivos que se usaron de este aporte son los siguientes:
 
+```
 -includes
-getLocalidad.php
-getMunicipio.php
+    getLocalidad.php
+    getMunicipio.php
 -js
-jquery-3.1.1.min.js
+    jquery-3.1.1.min.js
 
 conexion.php
 guarda.php
 index.php
 
-----------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------
-
-
+```
 Los datos para la creación de este archivo Sql  se obtuvieron de el Catálogo Nacional de Códigos Postales,
 es elaborado por Correos de México.
 
@@ -42,15 +39,7 @@ Municipios: 2,469
 Asentamienos: 146,076
 
 
-# Consulta de Codigos Postales México 2021
-
-_Se muestra el Catálogo Nacional de Códigos Postales elaborado por Correos de México. En combos dinámicos en PHP, AJAX y MySQL._
-
-## Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
+_Mira **Deployment** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
@@ -99,9 +88,6 @@ _Explica que verifican estas pruebas y por qué_
 Da un ejemplo
 ```
 
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
@@ -120,18 +106,11 @@ _El proyecto se construyó usando las siguientes herramientas_
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (GNU General Public License v3.0) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
 
 ## Expresiones de Gratitud 🎁
 
 * Comenta a otros sobre este proyecto 📢
 * Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
 * Da las gracias públicamente 🤓.
-* etc.
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
-
-
