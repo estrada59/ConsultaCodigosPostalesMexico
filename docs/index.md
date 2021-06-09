@@ -1,146 +1,91 @@
-## Welcome to GitHub Pages
+# Consulta de Codigos Postales México 2021
 
-You can use the [editor on GitHub](https://github.com/estrada59/ConsultaCodigosPostalesMexico/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+_Se muestra el Catálogo Nacional de Códigos Postales elaborado por Correos de México. En combos dinámicos en PHP, AJAX y MySQL. Fecha de Obtencion de datos 01/06/2021._
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/estrada59/ConsultaCodigosPostalesMexico/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-
-
-# Título del Proyecto
-
-_Acá va un párrafo que describa lo que es el proyecto_
+https://estrada59.github.io/ConsultaCodigosPostalesMexico/
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Parte de este aporte es del siguiente canal de YouTube_
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+Códigos de Programación - MR Canal: https://www.youtube.com/channel/UCKaa9SPITNARrLDvX2olvrA
 
+Puedes visitar el siguiente link
 
-### Pre-requisitos 📋
+https://www.youtube.com/watch?v=xq04F4hbZmo&ab_channel=C%C3%B3digosdeProgramaci%C3%B3n-MRC%C3%B3digosdeProgramaci%C3%B3n-MR
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
-
-### Instalación 🔧
-
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
+Los archivos que se usaron de este aporte son los siguientes:
 
 ```
-Da un ejemplo
-```
+-includes
+    getLocalidad.php
+    getMunicipio.php
+-js
+    jquery-3.1.1.min.js
 
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+conexion.php
+guarda.php
+index.php
 
 ```
-Da un ejemplo
+## Obtención de datos
+
+Los datos para la creación de este archivo Sql  se obtuvieron de el Catálogo Nacional de Códigos Postales,
+es elaborado por Correos de México.
+
+Fuente:     http://www.cuentame.inegi.org.mx/territorio/division/default.aspx?tema=T
+            https://www.correosdemexico.gob.mx/SSLServicios/ConsultaCP/Descarga.aspx
+
+Fecha de Obtencion de datos 01/06/2021.
+
 ```
+BD_Estados_Municipios_Asentamientos.sql
 
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
+    tblc_estados: 32 Entidades Federativas
+    tblc_municipios: 2,469 Cantidad de municipios
+    tblc_asentamienos: 146,076 Cantidad de asentamientos (Nombre del asentamiento, C.P. etc.)
+    tblc_tipo_asentamientos: 32 tipos de asentamientos (Colonias, unidad habitacional, fraccionamiento etc.)
+   
 ```
-Da un ejemplo
-```
+## Estructura de la base de datos 🛠️
 
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
+![DiagramaEntidadRelacion](https://user-images.githubusercontent.com/6250793/121298464-86bd7400-c8b9-11eb-8f10-05101a22f3db.png)
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_El proyecto se construyó usando las siguientes herramientas_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
-## Contribuyendo 🖇️
+* [XAMPP](https://www.apachefriends.org/es/index.html) - XAMPP es una distribución de Apache completamente gratuita y fácil de instalar que contiene MariaDB, PHP y Perl.
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+Una vez instalado hay que ejecutar dentro de phpmyadmin el archivo BD_Estados_Municipios_Asentamientos.sql
+con esto ya tendremos cargada la BD
 
-## Wiki 📖
+![TablasCargadas](https://user-images.githubusercontent.com/6250793/121299495-229baf80-c8bb-11eb-9e43-631099f68497.png)
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+Posteriormente todos los archivos descargados hay que colocarlos en:
 
-## Versionado 📌
+```
+C:\xampp\htdocs\ConsultaCodigosPostalesMexico
+```
+Posteriormente ir al navegador y ejecutar el archivo index.php entrando al localhost/ConsultaCodigosPostalesMexico
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+![Ejemplo](https://user-images.githubusercontent.com/6250793/121299733-7ad2b180-c8bb-11eb-9ce4-5f066c57763d.png)
 
-## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+## Autor ✒️
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Enrique Estrada** - *Trabajo Inicial* - [estrada59](https://github.com/estrada59)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (GNU General Public License v3.0) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
 
 ## Expresiones de Gratitud 🎁
 
 * Comenta a otros sobre este proyecto 📢
 * Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
 * Da las gracias públicamente 🤓.
-* etc.
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
-
