@@ -1,5 +1,11 @@
 # ConsultaCodigosPostalesMexico
 
+<<<<<<< HEAD
+=======
+https://estrada59.github.io/ConsultaCodigosPostalesMexico/
+
+Se muestra el Catálogo Nacional de Códigos Postales elaborado por Correos de México. En combos dinámicos en PHP, AJAX y MySQL.
+>>>>>>> 674faf3f7d515ab602a9d8924e18ad9662491a23
 
 Fecha de Obtencion de datos 01/06/2021.
 
