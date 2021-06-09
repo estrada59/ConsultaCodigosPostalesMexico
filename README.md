@@ -59,6 +59,19 @@ _El proyecto se construyó usando las siguientes herramientas_
 * [XAMPP](https://www.apachefriends.org/es/index.html) - XAMPP es una distribución de Apache completamente gratuita y fácil de instalar que contiene MariaDB, PHP y Perl.
 
 Una vez instalado hay que ejecutar dentro de phpmyadmin el archivo BD_Estados_Municipios_Asentamientos.sql
+con esto ya tendremos cargada la BD
+
+![TablasCargadas](https://user-images.githubusercontent.com/6250793/121299495-229baf80-c8bb-11eb-9e43-631099f68497.png)
+
+Posteriormente todos los archivos descargados hay que colocarlos en:
+
+```
+C:\xampp\htdocs\ConsultaCodigosPostalesMexico
+```
+Posteriormente ir al navegador y ejecutar el archivo index.php entrando al localhost/ConsultaCodigosPostalesMexico
+
+![Ejemplo](https://user-images.githubusercontent.com/6250793/121299733-7ad2b180-c8bb-11eb-9ce4-5f066c57763d.png)
+
 
 ## Autor ✒️
 
