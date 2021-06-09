@@ -43,7 +43,7 @@ BD_Estados_Municipios_Asentamientos.sql
 
     tblc_estados: 32 Entidades Federativas
     tblc_municipios: 2,469 Cantidad de municipios
-    tblc_asentamienos: 146,076 Cantidad de municipios (Nombre del asentamiento, C.P. etc.)
+    tblc_asentamienos: 146,076 Cantidad de asentamientos (Nombre del asentamiento, C.P. etc.)
     tblc_tipo_asentamientos: 32 tipos de asentamientos (Colonias, unidad habitacional, fraccionamiento etc.)
    
 ```
