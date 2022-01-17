@@ -81,7 +81,7 @@ Posteriormente ir al navegador y ejecutar el archivo index.php entrando al local
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (GNU General Public License v3.0) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (GNU General Public License v3.0) - mira el archivo LICENSE para detalles
 
 
 ## Expresiones de Gratitud 🎁
